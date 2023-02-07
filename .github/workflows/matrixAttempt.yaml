@@ -17,7 +17,7 @@ jobs:
     steps:
       - name: check1
         run: |
-          echo "arjun1"
+          echo "arjun2"
           echo ${{ matrix.os }} 
 
   deploy-smoke-test-job:
