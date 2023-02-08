@@ -1,7 +1,7 @@
 name: Dry run - Deploy Smoke test job to staging
 on:
   push:
-    branches: [ change-to-main ]
+    branches: [ main ]
 
 jobs:
   docker-build:
